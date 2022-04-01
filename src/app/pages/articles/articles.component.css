@@ -27,9 +27,13 @@
 	
 }
 
+.nav{
+    background-color: #374b56;
+    height: 50px;
+}
 .nav-item a{
   color: white !important;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: 'Tajawal', sans-serif;
   font-size: 15px; 
 }
@@ -46,7 +50,7 @@
     PADDING: 2%;
     background-repeat: no-repeat;
     background-size: cover;
-    height:400px;
+    height:340px;
     color: white;
     background-color: #374b56;
   }
@@ -58,18 +62,38 @@
     margin-bottom: 2%;
     font-size: 50px;
   }
-  .social  {
-    margin: auto;
-    justify-content: center;
-    display: flex;
-  }
-  .social li {
-    font-size: 17px;
-    display: inline-block;
-    padding-right: 1%;
-  }
-.social a{
-  color: #f28123 !important;
+
+form h2,p{
+  text-align: center;
+  direction: rtl;
 }
 
+.row{
+    margin-top:1%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+.card{
+  padding: 15px;
+  background: white;
+  position: sticky;
+  border-radius: 4px;
+  margin-top: -13%;
+  border: 1px solid #3f1f04;
+  box-shadow: 2px 4px 12px rgba(black, 0.08);
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+}
 
+ hr{
+    color: #a54c08 !important;
+    width: 100%;
+    border: 5px;
+}
+.card-body {
+    direction: rtl;
+}
