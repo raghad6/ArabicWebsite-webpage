@@ -5,17 +5,19 @@ import { ArticlesComponent } from './pages/articles/articles.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { ImagesComponent } from './pages/images/images.component';
 import { VediosComponent } from './pages/vedios/vedios.component';
+import { VoicesComponent } from './pages/voices/voices.component';
 import { WritingComponent } from './pages/writing/writing.component';
 
 
 const routes: Routes = [
 { path: 'home', component: HomeComponent },
 { path: '',   redirectTo: '/home', pathMatch: 'full' },
-{ path: 'مقالات' , component:ArticlesComponent},
-{ path: 'تاريخ و سيرة' , component:HistoryComponent},
-{ path: 'صور' , component:ImagesComponent},
-{ path: 'فيديوهات' , component:VediosComponent},
-{ path: 'مؤلفات' , component:WritingComponent},
+{ path: 'articles' , component:ArticlesComponent},
+{ path: 'history ' , component:HistoryComponent},
+{ path: 'images' , component:ImagesComponent},
+{ path: 'videos' , component:VediosComponent},
+{ path: 'writings' , component:WritingComponent},
+{ path: 'voices' , component:VoicesComponent},
 ];
 
 @NgModule({
