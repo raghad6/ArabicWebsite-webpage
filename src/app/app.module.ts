@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './pages/home/home.component';
 import { VoicesComponent } from './pages/voices/voices.component';
 import { VediosComponent } from './pages/vedios/vedios.component';
 import { ArticlesComponent } from './pages/articles/articles.component';

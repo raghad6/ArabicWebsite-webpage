@@ -13,27 +13,27 @@
   <body>
     <div class="first">
 
-      <ul class="nav justify-content-center">
+      <ul class="nav justify-content-center"  routerLinkActive="active">
         <li class="nav-item">
-          <a class="nav-link "  href="voices">صوتيات</a>
+          <a class="nav-link " routerLink="/voices">   صوتيات</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="videos">فيديوهات</a>
+          <a class="nav-link" routerLink="/videos">فيديوهات</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="articles">مقالات</a>
+          <a class="nav-link" routerLink="/writings">مقالات</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="history">تاريخ و سيرة</a>
+          <a class="nav-link" routerLink="/history">تاريخ و سيرة</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="images">صور</a>
+          <a class="nav-link" routerLink="/images">صور</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="articles">مؤلفات</a>
+          <a class="nav-link" routerLink="/articles">مؤلفات</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link " href="home">الرئيسية</a>
+          <a class="nav-link"  routerLink="/home">الرئيسية</a>
         </li>
       </ul>
 
@@ -50,4 +50,19 @@
         </ul>
       </div>
     </div>
+
+    
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title">
+          Card header
+        </p>
+        <button class="card-header-icon" aria-label="more options">
+          <span class="icon">
+            <i class="fas fa-angle-down" aria-hidden="true"></i>
+          </span>
+        </button>
+      </header>
+    </div>
+    
   </body>
