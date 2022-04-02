@@ -29,7 +29,7 @@
 
 .nav{
     background-color: #374b56;
-    height: 50px;
+    height: 70px;
     margin-top: 3%;
 }
 .nav-item a{
@@ -55,7 +55,9 @@
     color: white;
     background-color: #374b56;
   }
-
+  /* .container {
+      margin-top: 18%;
+  } */
   .container h3{
     font-family: 'Tajawal', sans-serif;
     text-align: center;
@@ -71,5 +73,8 @@
     height: 300px;
     border: 1px solid gray;
     box-shadow: 2px 4px 12px rgba(black, 0.08);
-
+}
+.card{
+    margin-bottom: 3%;
+    margin-top: -1%;
 }
