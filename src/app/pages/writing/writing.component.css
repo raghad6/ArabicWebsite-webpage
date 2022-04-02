@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+
+@media (max-width: 1199px) {
+	.container {
+		width: auto;
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.zoom-container {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 480px) {
+	
+	.zoom-container {
+		width: 100%;
+	}
+	
+}
+
+.nav{
+    background-color: #374b56;
+    height: 50px;
+}
+.nav-item a{
+  color: white !important;
+  /* font-weight: bold; */
+  font-family: 'Tajawal', sans-serif;
+  font-size: 15px; 
+}
+
+.nav a:hover{
+  color: #f28123 !important;
+}
+
+.nav>.active>a {
+  color: #f28123 !important;
+}
+  .first {
+    text-align: right;
+    PADDING: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:230px;
+    color: white;
+    background-color: #374b56;
+  }
+
+  .container h3{
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    font-size: 50px;
+  }
+  .row {
+      margin-top: 2%;
+  }
+.col img{
+    width: 230px;
+    height: 300px;
+    border: 1px solid gray;
+    box-shadow: 2px 4px 12px rgba(black, 0.08);
+
+}
