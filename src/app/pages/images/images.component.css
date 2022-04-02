@@ -3,6 +3,7 @@
 	padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
 
 @media (max-width: 1199px) {
 	.container {

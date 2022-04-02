@@ -13,6 +13,7 @@ import { WritingComponent } from './pages/writing/writing.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     BrowserModule,
     AppRoutingModule,
     Ng2SearchPipeModule,
-    FormsModule
+    FormsModule,
+    MdbCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
