@@ -30,6 +30,8 @@
 .nav{
     background-color: #374b56;
     height: 50px;
+    margin-top: 3%;
+
 }
 .nav-item a{
   color: white !important;

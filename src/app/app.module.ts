@@ -11,6 +11,8 @@ import { HistoryComponent } from './pages/history/history.component';
 import { ImagesComponent } from './pages/images/images.component';
 import { WritingComponent } from './pages/writing/writing.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
+import { FormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Ng2SearchPipeModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
