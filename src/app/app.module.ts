@@ -10,6 +10,7 @@ import { ArticlesComponent } from './pages/articles/articles.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { ImagesComponent } from './pages/images/images.component';
 import { WritingComponent } from './pages/writing/writing.component';
+import { ContactsComponent } from './pages/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WritingComponent } from './pages/writing/writing.component';
     ArticlesComponent,
     HistoryComponent,
     ImagesComponent,
-    WritingComponent
+    WritingComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

@@ -50,7 +50,7 @@
     PADDING: 2%;
     background-repeat: no-repeat;
     background-size: cover;
-    height:340px;
+    height:230px;
     color: white;
     background-color: #374b56;
   }
@@ -58,42 +58,17 @@
   .container h3{
     font-family: 'Tajawal', sans-serif;
     text-align: center;
-    margin-top: 12%;
+    margin-top: 7%;
     margin-bottom: 2%;
     font-size: 50px;
   }
-
-form h2,p{
-  text-align: center;
-  direction: rtl;
-}
-
-.row{
-    margin-top:1%;
-}
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px; 
+  .row {
+      margin-top: 2%;
   }
-.card{
-  padding: 15px;
-  background: white;
-  position: sticky;
-  border-radius: 4px;
-  margin-top: -13%;
-  border: 1px solid #3f1f04;
-  box-shadow: 2px 4px 12px rgba(black, 0.08);
-  border-top-right-radius:10px;
-  border-top-left-radius:10px;
-}
+.col img{
+    width: 230px;
+    height: 300px;
+    border: 1px solid gray;
+    box-shadow: 2px 4px 12px rgba(black, 0.08);
 
- hr{
-    color: #a54c08 !important;
-    width: 100%;
-    border: 5px;
-}
-.card-body {
-    direction: rtl;
 }

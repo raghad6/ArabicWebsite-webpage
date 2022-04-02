@@ -12,30 +12,12 @@
 
   <body>
     <div class="first">
-
-      <ul class="nav justify-content-center"  routerLinkActive="active">
-        <li class="nav-item">
-          <a class="nav-link " routerLink="/voices">   صوتيات</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/videos">فيديوهات</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/writings">مقالات</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/history">تاريخ و سيرة</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/images">صور</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/articles">مؤلفات</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link"  routerLink="/home">الرئيسية</a>
-        </li>
-      </ul>
+      <nav class="navbar navbar-light ">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
 
       <div class="container">
         <h3>موقع سماحة الشيخ سعيد أبو
@@ -50,26 +32,76 @@
         </ul>
       </div>
     </div>
-
     
-<div class="container add-todo-box-container">
-  <div class="add-todo-box">
-
-    <form>
-      <h2 class="title is-5">موقع الكتروني....</h2>
-
-      <div class="field is-grouped" style="margin-top:3%;">
-        <p class="control is-expanded">
-          موقع الاكتروني يعرض الصفحات التالية ..
-          موقع الاكتروني يعرض الصفحات التالية ..
-          موقع الاكتروني يعرض الصفحات التالية ..
-          موقع الاكتروني يعرض الصفحات التالية ..
-
-        </p>
+    <div class="container">
+      <div class="row row-cols-4">
+        <div class="col">
+          <div class="box">
+            <form>
+              <h2 class="title is-5"> 
+                <a class="nav-link " routerLink="/voices">   صوتيات</a>
+              </h2>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <div class="box">
+            <form>
+              <h2 class="title is-5"> 
+                <a class="nav-link" routerLink="/writings">مقالات</a>
+              </h2>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <div class="box">
+            <form>
+              <h2 class="title is-5"> 
+                <a class="nav-link" routerLink="/images">صور</a>
+              </h2>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <div class="box">
+            <form>
+              <h2 class="title is-5"> 
+                <a class="nav-link" routerLink="/articles">مؤلفات</a>
+              </h2>
+            </form>
+          </div>
+        </div>
       </div>
-    </form>
-
-  </div>
-</div>
-    
+      <br>
+      <br><br><br>
+      <div class="row row-cols-3">
+        <div class="col">
+          <div class="box">
+            <form>
+              <h2 class="title is-5"> 
+                <a class="nav-link " routerLink="/contacts">   تواصل معنا</a>
+              </h2>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <div class="box">
+            <form>
+              <h2 class="title is-5"> 
+                <a class="nav-link" routerLink="/history">تاريخ و سيرة</a>
+              </h2>
+            </form>
+          </div>
+        </div>
+        <div class="col">
+          <div class="box">
+            <form>
+              <h2 class="title is-5"> 
+                <a class="nav-link" routerLink="/videos">فيديوهات</a>
+              </h2>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>

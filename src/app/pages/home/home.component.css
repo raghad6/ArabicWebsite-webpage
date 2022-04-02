@@ -26,21 +26,6 @@
 	}
 	
 }
-
-.nav-item a{
-  color: white !important;
-  /* font-weight: bold; */
-  font-family: 'Tajawal', sans-serif;
-  font-size: 15px; 
-}
-
-.nav a:hover{
-  color: #f28123 !important;
-}
-
-.nav>.active>a {
-  color: #f28123 !important;
-}
   .first {
     text-align: right;
     PADDING: 2%;
@@ -50,7 +35,9 @@
     color: white;
     background-color: #374b56;
   }
-
+.navbar{
+  justify-content: center;
+}
   .container h3{
     font-family: 'Tajawal', sans-serif;
     text-align: center;
@@ -77,21 +64,38 @@ form h2,p{
   direction: rtl;
 }
 .container {
-  max-width: 800px;
+  max-width: 850px;
 }
 
-.add-todo-box-container {
+.box-container {
   position: sticky;
   top: 0;
   z-index: 1;
+  width: 270px;
 }
 
-.add-todo-box {
+.box {
   padding: 25px;
   background: white;
   
   border-radius: 4px;
-  margin-top: -68px;
+  margin-top: -80px;
   border: 1px solid gray;
-  box-shadow: 2px 4px 12px rgba(black, 0.08);
+  box-shadow: 7px 4px 12px rgba(#f28123, 0.8);
+}
+
+
+.box a{
+  color: black !important;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 25px; 
+  font-weight: bold;
+}
+
+.box a:hover{
+  color: #f28123 !important;
+}
+
+.box>.active>a {
+  color: #f28123 !important;
 }

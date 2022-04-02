@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,14 +7,36 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router,
-    private route: ActivatedRoute) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
-  goToPage(pageName:string){
-    this.router.navigate([`${pageName}`]);
-  }
+  Subject: string | undefined;
+
+  filterResultDataSet = [
+    {
+      Tiltle: 'voices'
+    },
+    {
+      Tiltle: 'writings'
+    },
+    {
+      Tiltle: 'images'
+    },
+    {
+      Tiltle: 'articles'
+    },
+    {
+      Tiltle: 'contacts'
+    },
+    {
+      Tiltle: 'history'
+    },
+    {
+      Tiltle: 'videos'
+    }
+  ]
+
 
 }
