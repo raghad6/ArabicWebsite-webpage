@@ -14,6 +14,7 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
+import { EnviromentsComponent } from './enviroments/enviroments/enviroments.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
     HistoryComponent,
     ImagesComponent,
     WritingComponent,
-    ContactsComponent
+    ContactsComponent,
+    EnviromentsComponent
   ],
   imports: [
     BrowserModule,
