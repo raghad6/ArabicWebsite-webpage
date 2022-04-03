@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "main-website-e8fcb"
+  },
+  "targets": {
+    "main-website-e8fcb": {
+      "hosting": {
+        "abo-almakarem-website": [
+          "main-website-e8fcb"
+        ]
+      }
+    }
   }
 }

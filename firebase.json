@@ -3,7 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "public",
+    "public": "dist/abo-almakarem-website",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -25,6 +25,9 @@
     },
     "ui": {
       "enabled": true
+    },
+    "firestore": {
+      "port": 8080
     }
   }
 }
