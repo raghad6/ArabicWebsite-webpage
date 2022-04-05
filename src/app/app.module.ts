@@ -15,7 +15,8 @@ import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 
-
+// import { AngularFireModule } from "@angular/fire";
+// import { AngularFirestoreModule } from "@angular/fire/firestore";
 
 @NgModule({
   declarations: [
