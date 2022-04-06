@@ -30,7 +30,7 @@
 .nav{
     background-color: #374b56;
     height: 50px;
-    margin-top: 3%;
+    margin-top: 1%;
 
 }
 .nav-item a{
@@ -60,7 +60,7 @@
   .container h3{
     font-family: 'Tajawal', sans-serif;
     text-align: center;
-    margin-top: 9%;
+    margin-top: 5%;
     margin-bottom: 2%;
     font-size: 50px;
   }

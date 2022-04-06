@@ -30,7 +30,7 @@
 .nav{
     background-color: #374b56;
     height: 70px;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .nav-item a{
   color: white !important;
@@ -51,17 +51,14 @@
     PADDING: 2%;
     background-repeat: no-repeat;
     background-size: cover;
-    height:230px;
+    height:300px;
     color: white;
     background-color: #374b56;
   }
-  /* .container {
-      margin-top: 18%;
-  } */
   .container h3{
     font-family: 'Tajawal', sans-serif;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-bottom: 2%;
     font-size: 50px;
   }

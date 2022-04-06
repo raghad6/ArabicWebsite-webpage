@@ -30,7 +30,7 @@
 .nav{
     background-color: #374b56;
     height: 50px;
-    margin-top: 3%;
+    margin-top: 1%;
 
 }
 .nav-item a{
@@ -52,7 +52,7 @@
     PADDING: 2%;
     background-repeat: no-repeat;
     background-size: cover;
-    height:230px;
+    height:300px;
     color: white;
     background-color: #374b56;
   }

@@ -31,7 +31,7 @@
 .nav{
     background-color: #374b56;
     height: 50px;
-    margin-top: 3%;
+    margin-top: 1%;
 
 }
 .nav-item a{
@@ -53,7 +53,7 @@
     PADDING: 2%;
     background-repeat: no-repeat;
     background-size: cover;
-    height:230px;
+    height:300px;
     color: white;
     background-color: #374b56;
   }
@@ -61,7 +61,7 @@
   .container h3{
     font-family: 'Tajawal', sans-serif;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 6%;
     margin-bottom: 2%;
     font-size: 50px;
   }
